@@ -1,0 +1,29 @@
+.header {
+    display: flex; /* Горизонтальное расположение элементов */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    justify-content: space-between; /* Пространство между логотипом и заголовком */
+    padding: 20px 40px; /* Внутренние отступы сверху/снизу и слева/справа */
+    background: linear-gradient(to right, #f6f8fa, #e3e6e8); /* Градиентный фон */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для заголовка */
+    border-radius: 10px; /* Скругление углов */
+}
+
+.logo img {
+    width: 250px; /* Размер логотипа */
+    height: auto; /* Сохранение пропорций */
+    transition: transform 0.3s ease; /* Плавный эффект при наведении */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Увеличение логотипа при наведении */
+}
+
+h1 {
+    font-size: 28px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #444; /* Цвет текста */
+    text-transform: uppercase; /* Текст заглавными буквами */
+    letter-spacing: 2px; /* Увеличение расстояния между буквами */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Тень текста */
+    margin: 0; /* Убираем отступы у заголовка */
+}

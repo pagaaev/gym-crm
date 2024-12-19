@@ -1,0 +1,64 @@
+.dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+.dashboard h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.card-number {
+    font-size: 3rem;
+    color: #444;
+    font-weight: bold;
+}
+
+.age-groups {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.age-groups li {
+    margin: 5px 0;
+}
+
+.age-groups span {
+    color: #333;
+    font-weight: bold;
+}
